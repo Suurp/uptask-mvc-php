@@ -52,11 +52,11 @@ class Email
     {
         $mail = new PHPMailer();
         $mail->isSMTP();
-        $mail->Host = '';
+        $mail->Host = 'ENTER';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '';
-        $mail->Password = '';
+        $mail->Username = 'ENTER';
+        $mail->Password = 'ENTER';
 
 
         $mail->setFrom('cuentas@uptask.com');
