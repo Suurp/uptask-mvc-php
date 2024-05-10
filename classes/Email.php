@@ -22,11 +22,11 @@ class Email
     {
         $mail = new PHPMailer();
         $mail->isSMTP();
-        $mail->Host = 'sandbox.smtp.mailtrap.io';
+        $mail->Host = '';
         $mail->SMTPAuth = true;
-        $mail->Port = 2525;
-        $mail->Username = '326ea20c99a576';
-        $mail->Password = '6837eaad5216c5';
+        $mail->Port = '';
+        $mail->Username = '';
+        $mail->Password = '';
 
 
         $mail->setFrom('cuentas@uptask.com');
